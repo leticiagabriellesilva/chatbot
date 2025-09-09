@@ -33,9 +33,9 @@ cd chatbot-python
 pip install -r requirements.txt
 ```
 
-- Principais dependências: 
-	•	python-dotenv: para carregar variáveis de ambiente
-	•	google-generativeai: cliente da API Gemini
+Principais dependências: 
+1. python-dotenv: para carregar variáveis de ambiente
+2. google-generativeai: cliente da API Gemini
 
 ### ▶️ Como rodar
 1. Crie um arquivo `.env` na raiz do projeto com o conteúdo:  
@@ -48,7 +48,7 @@ GEMINI_API_KEY="sua_chave_aqui"
 python chatbot.py
 ```
 
-### Exemplo
+### 📝 Exemplo
 ```
 --- Chatbot sobre Git ---
 Você pode fazer até 3 perguntas, fique à vontade!
@@ -78,9 +78,10 @@ Você aprendeu os comandos: git checkout -b, git reset, git pull
 ```
 
 ### 📂 Estrutura do projeto
+```
 chatbot/
-│-- chatbot.py        # Código principal do chatbot
-│-- requirements.txt  # Dependências do projeto
-│-- .env.example      # Exemplo de configuração da API Key
-│-- README.md         # Documentação do projeto
-
+│– chatbot.py        # Código principal do chatbot
+│– requirements.txt  # Dependências do projeto
+│– .env.example      # Exemplo de configuração da API Key
+│– README.md         # Documentação do projeto
+```
